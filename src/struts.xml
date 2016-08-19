@@ -5,6 +5,7 @@
         "http://struts.apache.org/dtds/struts-2.0.dtd">
 
 <struts>
+    <constant name="struts.i18n.encoding" value="utf-8"/>
     <constant name="struts.enable.DynamicMethodInvocation" value="true" />
     <!--<constant name="struts.devMode" value="true" />-->
     <package name="register" namespace="/" extends="struts-default">

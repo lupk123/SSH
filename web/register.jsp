@@ -16,7 +16,7 @@
     </head>
     <body>
         <div class='container'>
-            <form method="post" action="user.action">
+            <form method="post" action="userAction.action">
                 <table class="table">
                     <tr>
                         <td>用户名： </td>
