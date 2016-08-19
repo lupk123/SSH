@@ -13,7 +13,7 @@ import java.util.List;
  * Created by Administrator on 2016/8/17.
  */
 //@Controller("userAction") 可以不写
-//@Scope("prototype") 也可以不写
+//@Scope("prototype") 同Controller一块出现
 public class UserAction extends ActionSupport implements ModelDriven{
     UesrService uesrService;
     UserDto userDto = new UserDto();
